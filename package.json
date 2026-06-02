@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "backend": "cd backend && node server.js",
+
+    "frontend": "cd frontend && npm run dev -- --host 0.0.0.0",
+
+    "ngrok": "ngrok http 5173",
+
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" \"npm run ngrok\""
+  },
+
+  "dependencies": {
+    "axios": "^1.16.0",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}

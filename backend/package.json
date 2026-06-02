@@ -1,0 +1,15 @@
+{
+  "name": "scout-ai",
+  "version": "1.0.0",
+  "description": "Scout.AI Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.16.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2"
+  }
+}
